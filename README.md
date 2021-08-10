@@ -17,7 +17,7 @@ This algorithm will keep doing this until all the vertices have been visited.
 
 # More Information 
 
-Time Complexity: `O(no. vertices + edges log vertices)` 
+Time Complexity: `O(no. vertices + no.edges)` 
 
 This algorithm works for all solutions and any no. of vertices. 
 
