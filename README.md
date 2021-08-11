@@ -1,7 +1,7 @@
 # TravelingSalesMan 🚶🏻‍♂️📫
-Greedy Algorithm that outputs the most cost-efficient path to visit all places 
+Greedy Algorithm that outputs the most cost-efficient path to visit all places.
 
-# Algorithm 
+# Algorithm 📟
 
 Assuming that the mailman has to go places `[a, b, c, d]`, with certain costs to travel a path (for ex, travelling from point `a` to point `d` costs $5), this algorithm computes the the most cost-efficient path.
 
