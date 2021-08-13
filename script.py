@@ -35,7 +35,6 @@ def build_tsp_graph(directed):
   g.add_edge(vertices[3], vertices[2], 1)
   return g
 
-# Define your functions below:
 
 def visit_checker(graph):
     for status in list(graph.values()):
