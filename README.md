@@ -3,7 +3,7 @@ Greedy Algorithm that outputs the most cost-efficient path to visit all places.
 
 # Algorithm 📟
 
-Assuming that the mailman has to go places `[a, b, c, d]`, with certain costs to travel a path (for ex, travelling from point `a` to point `d` costs $5), this algorithm computes the the most cost-efficient path.
+Assuming that the salesperson has to go places `[a, b, c, d]`, with certain costs to travel a path (for ex, travelling from point `a` to point `d` costs $5), this algorithm computes the the most cost-efficient path.
 
 We start off by setting all the places as `unvisited` places, because we actually have not traversed them yet. We then get a `current_vertex` by random since we want our algorithm to compute every possible case, which in this case, would be *4!*. We then compare it's edges and their weights.
 
