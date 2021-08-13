@@ -7,7 +7,7 @@ Assuming that the mailman has to go places `[a, b, c, d]`, with certain costs to
 
 We start off by setting all the places as `unvisited` places, because we actually have not traversed them yet. We then get a `current_vertex` by random since we want our algorithm to compute every possible case, which in this case, would be *4!*. We then compare it's edges and their weights.
 
-We get the edge with the smallest weight (assuming that it's the cheapest), and we set that as the `current_vertex` after adding it to the `final_path`, which will ber returned at the end. 
+We get the edge with the smallest weight (assuming that it's the cheapest), and we set that as the `current_vertex` after adding it to the `final_path`, which will be returned at the end. 
 
 To keep track of all the visited vertices, for every time a `current_vertex` updates, we make sure that the dictionary that keeps track of both unvisited and visited vertices updates as the `current_vertex` becomes it's chepeast edge. 
 
