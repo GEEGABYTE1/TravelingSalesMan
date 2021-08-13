@@ -43,9 +43,7 @@ def visit_checker(graph):
         else:
             continue 
     
-    return True
-
-  
+    return True  
 
 def traveling_salesperson(graph):
     graph = graph.graph_dict
@@ -62,8 +60,6 @@ def traveling_salesperson(graph):
     final_path += current_vertex
 
     vertices_checker = visit_checker(dictionary)
-
-    #unvisited_edges = {} 
 
     if vertices_checker != True:
         while vertices_checker == False:
